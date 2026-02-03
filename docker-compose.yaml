@@ -1,0 +1,10 @@
+# docker-compose.yaml
+version: '3.3'
+services:
+  nexus:
+    images: sonatype/nexus
+    restart: always
+    ports:
+      -8088:8081
+    volumes:
+      - /path/to/nexus/data:/nexus-data
