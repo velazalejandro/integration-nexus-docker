@@ -35,3 +35,7 @@ services:
       - /path/to/nexus/data:/nexus-data
 
 Dentro de la carpeta nexus situada en opt – docker, ejecutamos el comando docker-compose up –d.
+
+
+## Licencia 📄
+Bajo licencia GNU General Public License v3.0
