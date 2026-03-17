@@ -12,7 +12,6 @@ _Estas instrucciones te permiten obtener una copia del proyecto en funcionamient
 
 
 ### Instalación 🔧 Pruebas ⚙️ y Despliegues 📦
-Integración de Nexus en Docker:
 https://hub.docker.com/r/sonatype/nexus/
 docker pull sonatype/nexus
 Para ejecutar (si el puerto 8081 está abierto en su host):
@@ -43,4 +42,5 @@ Bajo licencia GNU General Public License v3.0
 
 ## Autor
 Alejandro Velaz
+
 🎓 Formación: ASIR
