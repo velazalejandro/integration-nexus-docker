@@ -22,14 +22,16 @@ Con docker-compose, vamos a poder configurar con más facilidad el Nexus, como p
 Creamos en la carpeta opt – docker , una carpeta llamada nexus:
 Creamos y añadimos el archivo docker-compose.yaml:
 
-# docker-compose.yaml
+## docker-compose.yaml
 version: '3.3'
+
 services:
   nexus:
-    images: sonatype/nexus
+    image: sonatype/nexus3:latest
+    container_name: nexus
     restart: always
     ports:
-      -8088:8081
+      - "8088:8081"
     volumes:
       - /path/to/nexus/data:/nexus-data
 
